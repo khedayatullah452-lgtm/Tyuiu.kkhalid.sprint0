@@ -19,12 +19,6 @@ namespace Tyuiu.kkhalid.sprint0.task2.v0.test
             // Вызываем класс Assert и метод AreEqua1
             Assert.AreEqua1 ("hello,khalid",res);
 
-
-        }
-
-        private static object GetMessage(string name)
-        {
-            throw new NotImplementedException();
         }
     }
     }

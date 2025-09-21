@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{98E52AD9-7ADA-4AD9-905A-E44244DD0782}</ProjectGuid>
+    <ProjectGuid>{7FFDE569-5A1C-49B4-8A7E-F96CA0F567E1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Tyuiu.kkhalid.sprint0.task2.v0.Test</RootNamespace>
-    <AssemblyName>Tyuiu.kkhalid.sprint0.task2.v0.Test</AssemblyName>
+    <RootNamespace>Tyuiu.kkhalid.sprint0.task4.v0.test</RootNamespace>
+    <AssemblyName>Tyuiu.kkhalid.sprint0.task4.v0.test</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -56,9 +56,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.kkhalid.sprint0.task2.v0.Lib\Tyuiu.kkhalid.sprint0.task2.v0.Lib.csproj">
-      <Project>{4044cdca-f425-4f10-a15e-807b83ddd0c4}</Project>
-      <Name>Tyuiu.kkhalid.sprint0.task2.v0.Lib</Name>
+    <ProjectReference Include="..\Tyuiu.kkhalid.sprint0.task4.v0.lib\Tyuiu.kkhalid.sprint0.task4.v0.lib.csproj">
+      <Project>{1dc84a68-8f6f-4ccb-bd3c-8c2410e56270}</Project>
+      <Name>Tyuiu.kkhalid.sprint0.task4.v0.lib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

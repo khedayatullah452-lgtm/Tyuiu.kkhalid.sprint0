@@ -1,6 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-
 using Tyuiu.kkhalid.sprint0.task2.v0.lib;
 
 namespace Tyuiu.kkhalid.sprint0.task2.v0.test
@@ -17,8 +16,16 @@ namespace Tyuiu.kkhalid.sprint0.task2.v0.test
             var res = DataServiceTest.GetMessage(name);
 
             // Вызываем класс Assert и метод AreEqua1
-            Assert.AreEqua1 ("hello,khalid",res);
+            Assert.AreEqual ("hello,khalid",res);
 
+
+        }
+
+
+        
+private static string GetMessage(string name)
+        {
+            throw new NotImplementedException();
         }
     }
     }
